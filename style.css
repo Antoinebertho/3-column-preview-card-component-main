@@ -78,8 +78,20 @@ button:hover {
   color: hsl(179, 100%, 13%);
 }
 
-@media screen and (max-width: 480px) {
-  .card {
+@media screen and (max-width: 700px) {
+  .container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  .container-sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  .container-luxe {
+    border-radius: 0 0 10px 10px;
   }
 }
