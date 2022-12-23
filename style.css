@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 20px;
+  padding-left: 30px;
   min-height: 500px;
   width: min(300px, 100%);
   gap: 40px;
@@ -50,7 +50,8 @@ p {
   font-family: "Lexend Deca", sans-serif;
   color: hsla(0, 0%, 100%, 0.75);
   font-weight: 400;
-  padding: auto;
+  padding-right: 30px;
+  line-height: 25px;
 }
 
 button {
